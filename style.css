@@ -1,0 +1,29 @@
+#wrapper{
+    overflow: auto;
+}
+
+
+#box{
+    /* display: flex; */
+    overflow: scroll !important;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    margin: 0 auto;
+    max-width: 90vw;
+    max-height: 90vh;
+}
+
+.node{
+    cursor: pointer;
+}
+
+.node text{
+    padding: 20px !important;
+    font-size: 4.5em;
+}
+
+.node circle{
+    width: 140px;
+    padding: 200px;
+    background-color: aliceblue;
+}
